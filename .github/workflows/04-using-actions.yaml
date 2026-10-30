@@ -18,6 +18,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
+      - name: Check Node and npm versions
+        run: |
+          node --version
+          npm --version          
       - name: Install Dependencies
         run: npm ci
       - name: Run Unit Tests
