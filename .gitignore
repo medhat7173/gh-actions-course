@@ -1,4 +1,5 @@
 .DS_Store
 node_modules
+package-lock.backup.json
 !.github/actions/**/node_modules
 venv/
